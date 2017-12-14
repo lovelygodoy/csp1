@@ -1,0 +1,113 @@
+/*CSS Reset*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Header*/
+.clear:after {
+	content: "";
+	display: block;
+	clear:	both;
+}
+
+.header {
+	background-color:#81A594;
+	height: 20%;
+}
+.icon-bar {
+	background-color: #E6E6DC;
+}
+
+.nav {
+	float: right;
+	margin: 30px;
+	list-style: none;
+} 
+.navbar-nav>li>a {
+	color: #E6E6DC;
+}
+
+.navbar-toggle {
+	margin-top: 50px;
+}
+
+#bs-example-navbar-collapse-1 {
+	margin-right: 20%;
+}
+
+#nav:hover{
+    background-color: #E6E6DC;
+    color: #00628B;
+}
+.image {
+	margin-top: 15px;
+	margin-left: 15px;
+	border-radius: 300px;
+	width: 100px;
+	height: 100px;
+}
+
+/*Main*/
+
+main {
+	background-color: lightgrey;
+	height: 60%;
+	width:100%;
+}
+
+.container {
+	background-color: #E6E6DC; 
+	width: 100%;
+}
+
+.para1 > p {
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color:#00628B;
+}
+
+.carousel-inner > .item > img {
+	 width:500px;
+	 height:230px;
+	 margin: 0 auto;
+}
+
+/*Footer*/
+
+footer {
+	background-color: #00628B;
+	height: 20%;
+	width: 100%;
+
+
+}
+
+.list-inline-item > a {
+	color: #E6E6DC;
+	font-size: 2em;
+
+}
+
+.footer1,
+.footer2 {
+	width: 50%;
+	display: inline-block;
+	color: #E6E6DC;
+}
+
+.footer1 {
+	float: left;
+	margin-top: 20px;
+	}
+
+.footer2 {
+	float: right;
+	margin-top: 20px;
+
+}
+
+
